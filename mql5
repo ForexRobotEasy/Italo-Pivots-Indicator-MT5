@@ -1,0 +1,69 @@
+mql5
+//+------------------------------------------------------------------+
+//|                   Italo Pivots Indicator MT5                      |
+//|             Developer: Forex Robot Easy Team                      |
+//|            Website: forexroboteasy.com                            |
+//+------------------------------------------------------------------+
+
+// Define input parameters
+input bool ShowPivots = true; // Show pivot points
+input bool ShowSupportResistance = true; // Show support and resistance levels
+input bool ShowCriticalPivots = true; // Show critical pivot periods
+
+// Calculate pivot points
+void CalculatePivots()
+{
+    // Implementation logic for calculating the pivot points
+    // ...
+}
+
+// Display pivot points
+void DisplayPivots()
+{
+    // Implementation logic for displaying the pivot points
+    // ...
+}
+
+// Display support and resistance levels
+void DisplaySupportResistance()
+{
+    // Implementation logic for displaying support and resistance levels
+    // ...
+}
+
+// Display critical pivot periods
+void DisplayCriticalPivots()
+{
+    // Implementation logic for displaying critical pivot periods
+    // ...
+}
+
+// Main entry point
+void OnTick()
+{
+    if (ShowPivots)
+        DisplayPivots();
+
+    if (ShowSupportResistance)
+        DisplaySupportResistance();
+
+    if (ShowCriticalPivots)
+        DisplayCriticalPivots();
+}
+
+//+------------------------------------------------------------------+
+//|                       Initialization                             |
+//+------------------------------------------------------------------+
+void OnInit()
+{
+    CalculatePivots();
+}
+
+//+------------------------------------------------------------------+
+//|                    Deinitialization                              |
+//+------------------------------------------------------------------+
+void OnDeinit(const int reason)
+{
+    // Deinitialization logic
+    // ...
+}
